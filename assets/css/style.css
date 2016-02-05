@@ -1,0 +1,299 @@
+body, html {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	min-width: 850px;
+	-webkit-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-family: 'Raleway', sans-serif;
+	font-smoothing: antialiased; 
+}
+
+
+#header {
+	display: block; 
+	z-index: 100; 
+	width: 100%; 
+	height:100%; 
+}
+
+#header2 {
+	position: fixed;  
+	margin-top: 0px; 
+	width: 100%; 
+	z-index: 100; 
+}
+
+/* h1 {
+	color: white;  
+	text-align: center; 
+	text-shadow: 2px 2px 20px black;
+	width: 100%; 
+}
+
+*/ 
+
+.nav { 
+	position: fixed;
+	margin-top: 0px; 
+	width: 100%;  
+	background-color: black; 
+	height:50px; 
+	opacity: 0.6; 
+	text-align: center; 
+	border-top: 2px solid white; 
+	border-bottom: 2px solid white; 
+	
+}
+
+.unique {
+	display: inline;
+	margin-right: 50px;
+	position: relative; 
+	top: 5px; 
+	font-size: 30px; 
+	font-family: 'Hind', sans-serif;
+	#font-family: 'Shadows Into Light', cursive;
+	text-transform: lowercase; 	
+}
+
+li.active{
+	text-transform: uppercase; 
+}
+
+.unique2 {
+	color: white; 
+	text-decoration: none; 
+}
+
+a:hover{ 
+	color: #b0e0e6; 
+}
+
+#bg {
+	z-index: -100; 
+	position: fixed; 
+	top: 0px; 
+	left: 0px; 
+	
+	/* preserve aspect ratio */ 
+	width: 100%;
+	height: 100%; 
+	overflow: hidden; 
+}
+
+#special{
+	z-index: -100; 
+	position: fixed; 
+	top: 0;
+	left: 0;  
+	height: auto; 
+	width: 100%;  
+}
+
+#users {
+	position: relative; 
+	top: 75px; 
+	height: 80%; 
+	width: 100%; 
+	z-index: 0; 
+}
+
+#profile {
+	margin-left: 1%;  
+	margin-right: 20px; 
+	float: left; 
+	border: 1px solid gray;
+	height: 500px; 
+	width: 300px; 
+	background-color: white; 
+	font-family: 'Hind', sans-serif;
+	color:  #46337b; 
+	line-height:22px 
+	
+}
+
+#problem { 
+	overflow-y: scroll; 
+	overflow-x: hidden; 
+	height: 500px; 
+	width: 68%;  
+	background-color: white;
+	opacity: 0.93; 
+	padding: 20px; 
+	margin-bottom: 50px; 
+}
+
+#problem h1{
+	color: #46337b; 
+}
+
+#problem h2 {
+	color: #6449b0;
+}
+
+#about { 
+	padding-top: 40px; 
+	width: 100%; 
+	float: left;
+}
+
+#prof {
+	position: relative;
+	left: 15px; 
+	padding-top: 70px; 
+	height: 400px; 
+	display: block; 
+	border-radius: 3px; 
+	float: left; 
+}
+
+.text { 
+	padding-top: 75px; 
+	position: relative; 
+	left: 50px; 
+	font-size: 20px; 
+	margin-right: 100px; 
+}
+
+p1, p2, p3, p4, p5 {
+	display: none;
+	#text-align: center;
+	font-size: 22px; 	
+	margin-bottom: 5px; 
+
+}
+
+#videos {
+	position: relative; 
+	top: 50px; 
+	text-align: center;   
+}
+
+.video {
+	width: 100%; 
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+	padding-top: 75px;
+}
+
+.description {
+	width: 50%; 
+	display: block;
+	margin-left: auto; 
+	margin-right: auto; 
+	color: white; 
+	background: black; 
+	opacity: 0.6; 
+	font-size: 25px;  
+	margin-bottom: 70px; 
+
+}
+
+.page-wrapper {
+	width: 99%;
+	height: 100%; 
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+
+}
+
+#carousel {
+	margin-top: 0px; 
+	/* border: 5px solid green; */ 
+	height: 85%; 
+	width: 6000px;  
+	margin-left: 0px;
+	-webkit-transition: all 0.3s;
+}
+
+
+.carousel-container {
+	/* border: 5px solid red; */ 
+	width: 1180px;
+	height: 700px; 
+	margin: 0px auto; 
+	overflow: hidden; 
+	position: relative; 
+}
+
+
+#carousel-item {
+	/* border: 5px solid purple; */ 
+	width: 1180px; 
+	position: relative; 
+	float: left; 
+	margin-right: 45px;
+	margin-top: 100px; 
+}
+
+/* Styling for the carousel previous button */
+#carousel-prev {
+    position: absolute; 
+    width: 30px;
+    height: 30px;
+	left: 5%; 
+    top: 16%;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+}
+
+#carousel-prev:hover {
+	border: 1px solid #46337b; 
+}
+
+#carousel-next:hover {
+	border: 1px solid #46337b; 
+}
+
+/* Styling for the carousel next button */
+#carousel-next { 
+    position: absolute;
+	right: -20px; 
+    width: 40px;
+    height: 40px;
+	margin-right: 79%; 
+    top: 15.5%;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+}
+
+.img-scaled {
+	width: 100%;
+	height: 100%;
+}
+
+.img-scaled-wh {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.preview {
+	margin-left: -10px; 
+	margin-top: 20px; 
+	margin-bottom: 20px; 
+}
+
+.style {
+	text-align: center; 
+	font-family: 'Hind', sans-serif;
+	margin-bottom: -10px; 
+	color:  #46337b; 
+}
+
+h5 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px; 
+	font-weight: normal; 
+	color: #6449b0;
+	
+}
+
+.link:hover {
+	opacity: 0.5; 
+	border: 3px solid blue; 
+
+}
