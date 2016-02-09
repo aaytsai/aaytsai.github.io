@@ -31,7 +31,7 @@ $(document).ready(function() {
 
   $("#carousel-next").click(function() {
     var x = parseInt($('#carousel').css('margin-left').replace("px", ""));
-    if (x == -3675) {
+    if (x == -4900) {
       return false; 
     } else {
       $("#carousel").css("margin-left", x - 1225 + "px");
