@@ -204,7 +204,7 @@ p1, p2, p3, p4, p5 {
 	margin-top: 0px; 
 	/* border: 5px solid green; */ 
 	height: 85%; 
-	width: 6300px;  
+	width: 6275px;  
 	margin-left: 0px;
 	-webkit-transition: all 0.3s;
 }
@@ -212,6 +212,7 @@ p1, p2, p3, p4, p5 {
 
 .carousel-container {
 	/* border: 5px solid red; */ 
+	padding: 5px; 
 	width: 1255px;
 	height: 700px;
 	overflow: hidden; 
@@ -221,6 +222,7 @@ p1, p2, p3, p4, p5 {
 
 #carousel-item {
 	/* border: 5px solid purple;  */ 
+	padding: 5px; 
 	width: 1245px;
 	position: relative; 
 	float: left; 
@@ -235,7 +237,7 @@ p1, p2, p3, p4, p5 {
     width: 30px;
     height: 30px;
 	left: 5%; 
-    top: 16%;
+    top: 16.5%;
     cursor: pointer;
     -webkit-transition: all 0.3s;
 }
@@ -255,7 +257,7 @@ p1, p2, p3, p4, p5 {
     width: 40px;
     height: 40px;
 	margin-right: 79%; 
-    top: 15.5%;
+    top: 16%;
     cursor: pointer;
     -webkit-transition: all 0.3s;
 }
@@ -282,27 +284,4 @@ p1, p2, p3, p4, p5 {
 	font-family: 'Hind', sans-serif;
 	margin-bottom: -10px; 
 	color:  #46337b; 
-}
-
-h5 {
-	font-family: 'Raleway', sans-serif;
-	font-size: 18px; 
-	font-weight: normal; 
-	color: #6449b0;
-	
-}
-
-.link:hover {
-	opacity: 0.5; 
-	border: 3px solid blue; 
-
-}
-
-.space {
-	padding-bottom: 10px; 
-}
-
-.credit {
-	color: white;
-	font-size: 30px; 
 }
