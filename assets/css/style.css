@@ -204,7 +204,7 @@ p1, p2, p3, p4, p5 {
 	margin-top: 0px; 
 	/* border: 5px solid green; */ 
 	height: 85%; 
-	width: 6125px;  
+	width: 6300px;  
 	margin-left: 0px;
 	-webkit-transition: all 0.3s;
 }
@@ -212,20 +212,20 @@ p1, p2, p3, p4, p5 {
 
 .carousel-container {
 	/* border: 5px solid red; */ 
-	width: 1225px;
-	height: 700px; 
-	margin: 0px auto; 
+	width: 1255px;
+	height: 700px;
 	overflow: hidden; 
 	position: relative; 
 }
 
 
 #carousel-item {
-	/* border: 5px solid purple; */ 
-	width: 1180px; 
+	/* border: 5px solid purple;  */ 
+	width: 1245px;
 	position: relative; 
 	float: left; 
-	margin-right: 45px;
+	margin-left: 0px;
+	margin-right: 0px; 
 	margin-top: 100px; 
 }
 

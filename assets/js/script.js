@@ -31,10 +31,10 @@ $(document).ready(function() {
 
   $("#carousel-next").click(function() {
     var x = parseInt($('#carousel').css('margin-left').replace("px", ""));
-    if (x == -4900) {
+    if (x == -5020) {
       return false; 
     } else {
-      $("#carousel").css("margin-left", x - 1225 + "px");
+      $("#carousel").css("margin-left", x - 1255 + "px");
     }
   })
 
@@ -46,7 +46,7 @@ $(document).ready(function() {
     if (x == 0) {
       return false;
     } else {
-      $("#carousel").css("margin-left", x + 1225 + "px");
+      $("#carousel").css("margin-left", x + 1255 + "px");
     }
   })
 
