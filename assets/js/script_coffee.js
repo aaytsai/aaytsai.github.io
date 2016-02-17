@@ -34,6 +34,7 @@ $(document).ready(function() {
       $(".menu").css("margin-bottom", "-600px"); 
       $(".carousel-container").css("opacity", "0.3"); 
       $(".about_").addClass("void");
+      $(".contact_").addClass("void");
     } else {
       $(this).removeClass("selected");
       $(".menu").hide();
@@ -41,6 +42,7 @@ $(document).ready(function() {
       $(".menu_").removeClass('hover');   
       $(".carousel-container").css("opacity", "1"); 
       $(".about_").removeClass("void");
+      $(".contact_").removeClass("void");
     }
 
   }) 
@@ -55,15 +57,39 @@ $(document).ready(function() {
       $(".about_").addClass('hover'); 
       $(".about").css("margin-bottom", "-750px"); 
       $(".menu_").addClass("void");
+      $(".contact_").addClass("void");
     } else {
       $(this).removeClass("selected");
       $(".about").fadeOut(500);
       $(".about_").css("opacity", "0.4"); 
       $(".about_").removeClass('hover'); 
       $(".menu_").removeClass("void");
+      $(".contact_").removeClass("void");
     }
 
   }) 
+
+      // open Contact View 
+  $(".contact_").click(function() {
+    if (!$(this).hasClass("selected") && !$(this).hasClass("void")) {
+      $(this).addClass("selected");
+      $(".contact").fadeIn(500);
+      $(".contact_").css("opacity", "1"); 
+      $(".contact_").addClass('hover'); 
+      $(".contact").css("margin-bottom", "-750px"); 
+      $(".menu_").addClass("void");
+      $(".about_").addClass("void");
+    } else {
+      $(this).removeClass("selected");
+      $(".contact").fadeOut(500);
+      $(".contact_").css("opacity", "0.4"); 
+      $(".contact_").removeClass('hover'); 
+      $(".menu_").removeClass("void");
+      $(".about_").removeClass("void");
+    }
+
+  }) 
+
 
 
 });
